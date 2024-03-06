@@ -61,7 +61,7 @@ const Navbar = () => {
       }
     }
     isDark ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark')
-  },[isDark, toggleTheme])
+  }, [isDark, toggleTheme])
 
 
   return (
@@ -75,7 +75,7 @@ const Navbar = () => {
         ref={menu}
         className={`
           md:flex
-          ${isOpen ? 'flex' : 'hidden' }
+          ${isOpen ? 'flex' : 'hidden'}
           md:flex-row
           flex-col
           md:relative
@@ -109,21 +109,26 @@ const Navbar = () => {
         <Link to="/resume" className="md:text-lg text-2xl dark:text-neutral-100 no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
           Resume
         </Link>
+        <button>
+          <Link to="/Login" className="md:text-lg text-2xl dark:text-neutral-100 no-underline md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24">
+            Login
+          </Link>
+        </button>
         <button
           onClick={toggleTheme}
           className="inline-flex items-center md:text-lg text-2xl dark:text-neutral-100 md:ml-2 md:pr-0 md:pl-0 pl-8 pr-24"
         >
-          { selectedTheme == 'device' ? 
+          {selectedTheme == 'device' ?
             <span className="inline-flex items-center gap-x-2">
               <i className="las la-desktop text-3xl" /> <span className="md:hidden">Device</span>
             </span> :
             selectedTheme == 'dark' ?
-            <span className="inline-flex items-center gap-x-2">
-              <i className="lar la-moon text-3xl" /> <span className="md:hidden">Dark</span>
-            </span> :
-            <span className="inline-flex items-center gap-x-2">
-              <i className="lar la-sun text-3xl" /> <span className="md:hidden">Light</span>
-            </span>
+              <span className="inline-flex items-center gap-x-2">
+                <i className="lar la-moon text-3xl" /> <span className="md:hidden">Dark</span>
+              </span> :
+              <span className="inline-flex items-center gap-x-2">
+                <i className="lar la-sun text-3xl" /> <span className="md:hidden">Light</span>
+              </span>
           }
         </button>
       </div>
