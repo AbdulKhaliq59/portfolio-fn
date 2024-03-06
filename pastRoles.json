@@ -1,38 +1,29 @@
 [
   {
     "id": 0,
-    "title": "Senior UI/UX Designer",
-    "startYear": "2022",
-    "endYear": "2023",
-    "company": "Meta",
-    "logo": "/images/Meta.svg",
-    "description": "Lorem ipsum dolor sit amet tragon consectetur dolseclm adipiscing elit mattis faucibus odio feugiat."
+    "title": "Software developer",
+    "startYear": "2023",
+    "endYear": " Present",
+    "company": "Creativa poeta",
+    "logo": "/images/poeta.jpeg",
+    "description": "Software Developer skilled in designing, building, and troubleshooting software applications using various programming languages and frameworks. Collaborate with cross-functional teams to deliver user-facing features and functionalities that meet business requirements."
   },
   {
     "id": 1,
-    "title": "Lead of UX Design",
-    "startYear": "2020",
-    "endYear": "2021",
-    "company": "Twitter",
-    "logo": "/images/twitter.svg",
-    "description": "Lorem ipsum dolor sit amet tragon consectetur dolseclm adipiscing elit mattis faucibus odio feugiat."
+    "title": "Youtuber",
+    "startYear": " Present",
+    "endYear": "2023",
+    "company": "KhaliqTech",
+    "logo": "/images/youtube.svg",
+    "description": "Creative and engaging YouTube channel owner with expertise in Technology trends. Skilled at building a loyal online community and fostering audience engagement."
   },
   {
     "id": 2,
-    "title": "Head of UI/UX Design",
-    "startYear": "2019",
-    "endYear": "2020",
-    "company": "YouTube",
-    "logo": "/images/youtube.svg",
-    "description": "Lorem ipsum dolor sit amet tragon consectetur dolseclm adipiscing elit mattis faucibus odio feugiat."
-  },
-  {
-    "id": 3,
-    "title": "Mobile UI/UX Designer",
-    "startYear": "2017",
-    "endYear": "2018",
-    "company": "Twitch",
-    "logo": "/images/twitch.svg",
-    "description": "Lorem ipsum dolor sit amet tragon consectetur dolseclm adipiscing elit mattis faucibus odio feugiat."
+    "title": "Software developer Intern" ,
+    "startYear": "2022",
+    "endYear": "2023",
+    "company": "Andela",
+    "logo": "/images/andela.jpg",
+    "description": "with a strong foundation in MERN, PERN and API development both RESTful and GraphQL. Seeking to apply my knowledge and learning capabilities by contributing to software development projects and gaining practical experience in a collaborative environment."
   }
 ]

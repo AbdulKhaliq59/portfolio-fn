@@ -9,9 +9,9 @@ const About = (props: any, ref: any) => {
             About me
           </h2>
           <p className="lg:max-w-2xl mb-6 font-normal leading-relaxed text-gray-500 lg:mb-8 text-xl">
-            I am a full-stack developer with a strong will to contribute to team success through working in Agile  distributed teams (either remotely or on-site). Andela Technical Leadership Program, a program that focuses on Software Engineering, will help me specialize in Full-stack  web development. </p>
+            I am a full-stack developer with a passion for collaboration and a commitment to team success.  The Andela Technical Leadership Program equipped me with the skills and knowledge to excel in full-stack web development, including both front-end and back-end technologies.  </p>
           <p className="lg:max-w-2xl font-normal leading-relaxed text-gray-500 text-xl">
-            Sed magna bibendum proin quisque pellentesque mi potenti bibendum. Eros habitant pellentesque tincidunt mi tortor et. Non in vulputate consequat pellentesque condimentum elementum dolor sit amen.
+            I thrive in Agile environments, both remotely and on-site, and leverage my strong communication and interpersonal skills to contribute effectively in distributed teams. I am a quick learner and eager to tackle new challenges, constantly seeking opportunities to grow and refine my skillset.
           </p>
         </div>
         <div className="relative lg:block hidden lg:mt-0 lg:col-span-6 max-w-sm justify-self-end self-end mr-6">

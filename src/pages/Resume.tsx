@@ -21,7 +21,9 @@ const Resume = () => {
             Resume
           </h1>
           <p className="mb-6 font-normal leading-relaxed text-gray-500 lg:mb-8 text-xl">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit donec morbi lectus nisi egestas proin amet rhoncus scelerisque lorem feugiat amet hac ornare.
+            Versatile and highly motivated software
+            developer with a passion for crafting clean,
+            efficient, and user-focused applications.
           </p>
         </div>
       </section>

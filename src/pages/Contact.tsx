@@ -21,8 +21,7 @@ const Contact = () => {
               Get in touch
             </h1>
             <p className="mb-6 font-normal leading-relaxed text-gray-500 lg:mb-8 text-xl my-5">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit donec morbi lectus nisi egestas proin amet rhoncus scelerisque lorem feugiat amet hac ornare.
-            </p>
+              I'm always looking for new and exciting projects to work on. If you have a project in mind or simply want to chat, feel free to reach out!</p>
             <div className="grid auto-cols-fr max-w-scree-xl sm:grid-cols-2 grid-cols-1 gap-10">
               {
                 socialLinks.map((link) => <AnimatedLink key={link.link} title={link.title} link={link.link} isExternal={true} />)
