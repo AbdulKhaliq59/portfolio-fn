@@ -4,7 +4,7 @@ import Logo from './Logo'
 const Login = () => {
     return (
         <>
-            <div className="w-full max-w-sm p-6 m-auto mx-auto bg-[#1f2a3e] rounded-lg shadow-md dark:bg-[#1f2a3e]">
+            <div className="w-full max-w-sm p-6 m-auto mx-auto bg-white rounded-lg shadow-md dark:bg-[#1f2a3e]">
                 <div className="flex justify-center mx-auto">
                     <Link to={"/"}>
                         <Logo />
@@ -32,7 +32,7 @@ const Login = () => {
                         </button>
                     </div>
                 </form>
-                <p className="mt-8 text-xs font-light text-center text-gray-400"> Don't have an account? <Link to={"/signup"} className="font-medium text-white dark:text-gray-200 hover:underline">Register</Link></p>
+                <p className="mt-8 text-xs font-light text-center text-gray-400"> Don't have an account? <Link to={"/signup"} className="font-medium text-[#1f2a3e] dark:text-gray-200 hover:underline">Register</Link></p>
             </div>
         </>
     )

@@ -4,7 +4,7 @@ import Logo from './Logo'
 const Signup = () => {
     return (
         <>
-            <div className="w-full max-w-sm p-6 m-auto mx-auto bg-[#1f2a3e] rounded-lg shadow-md dark:bg-[#1f2a3e]">
+            <div className="w-full max-w-sm p-6 m-auto mx-auto bg-white rounded-lg shadow-md dark:bg-[#1f2a3e]">
                 <div className="flex justify-center mx-auto">
                     <Link to={"/"}>
                         <Logo />
@@ -34,11 +34,11 @@ const Signup = () => {
                     </div>
                     <div className="mt-6">
                         <button className="w-full px-6 py-2.5 text-sm font-medium tracking-wide text-[#1f2a3e] capitalize transition-colors duration-300 transform bg-[#00bdbc] rounded-lg hover:bg-[#00bdbc] focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-50">
-                            Sign In
+                            Sign Up
                         </button>
                     </div>
                 </form>
-                <p className="mt-8 text-xs font-light text-center text-gray-400"> Already have an account? <Link to={"/login"} className="font-medium text-white dark:text-gray-200 hover:underline">Login</Link></p>
+                <p className="mt-8 text-xs font-light text-center text-gray-400"> Already have an account? <Link to={"/login"} className="font-medium text-[#1f2a3e] dark:text-gray-200 hover:underline">Login</Link></p>
             </div>
         </>
     )
