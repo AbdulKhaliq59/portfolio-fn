@@ -1,5 +1,5 @@
 import ProjectPreview from "./ProjectPreview"
-import projects from "../../projects.json"
+import projects from "../../data/projects.json"
 
 const PastProjects = () => {
   return (

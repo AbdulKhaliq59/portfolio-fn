@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import AnimatedLink from '../components/AnimatedLink'
 import ArrowTopRight from '../components/ArrowTopRight'
-import socialLinks from '../../socialLinks.json'
+import socialLinks from '../../data/socialLinks.json'
 
 const Contact = () => {
   const [name, setName] = useState('')

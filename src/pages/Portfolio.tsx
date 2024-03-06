@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
-import categories from '../../categories.json'
-import portfolioList from '../../portfolio.json'
+import categories from '../../data/categories.json'
+import portfolioList from '../../data/portfolio.json'
 import PortfolioProject from '../components/PortfolioProject'
 import ArrowTopRight from '../components/ArrowTopRight'
 

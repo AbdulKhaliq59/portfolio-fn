@@ -1,6 +1,6 @@
 import AnimatedLink from './AnimatedLink'
 import Position from './Position'
-import pastRoles from '../../pastRoles.json'
+import pastRoles from '../../data/pastRoles.json'
 
 const Experience = () => {
   return (

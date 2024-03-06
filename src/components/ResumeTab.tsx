@@ -1,8 +1,8 @@
 import ReactMarkdown from 'react-markdown'
 import raw from 'rehype-raw'
-import pastRoles from '../../pastRoles.json'
-import skills from '../../skills.json'
-import socialLinks from '../../socialLinks.json'
+import pastRoles from '../../data/pastRoles.json'
+import skills from '../../data/skills.json'
+import socialLinks from '../../data/socialLinks.json'
 import Position from './Position'
 import SocialIconConnection from './SocialIconCollection'
 

@@ -7,7 +7,7 @@ import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import ProjectDetails from './components/ProjectDetails'
-
+import BlogPage from './pages/BlogPage'
 
 window.addEventListener('load', scrollReveal)
 window.addEventListener('scroll', scrollReveal)
@@ -23,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="/blog/" element={<BlogPage />} />
           <Route path="resume" element={<Resume />} />
           <Route path="/portfolio/:slug" element={<ProjectDetails />} />
         </Routes>

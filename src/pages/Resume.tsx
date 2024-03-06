@@ -1,5 +1,5 @@
 import ResumeTab from "../components/ResumeTab"
-import resumeOptions from '../../resumeOptions.json'
+import resumeOptions from '../../data/resumeOptions.json'
 
 const Resume = () => {
   return (
